@@ -1,0 +1,19 @@
+{
+    "name": "boxunphp/php-exception",
+    "description": "PHP Exception",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jordy",
+            "email": "arno.zheng@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "All\\Exception\\": ""
+        }
+    }
+}
