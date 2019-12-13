@@ -6,7 +6,7 @@
  * Time: 10:43 AM
  */
 
-namespace TestException;
+namespace Tests\Exception;
 
 use All\Exception\BadRequestException;
 use All\Exception\NotFoundException;
