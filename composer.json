@@ -14,11 +14,12 @@
     "phpunit/phpunit": "7.*"
   },
   "require": {
-    "boxunphp/php-utils": "^v1.1.0"
+    "php": "^7.1",
+    "boxunphp/php-utils": "v1.*"
   },
   "autoload": {
     "psr-4": {
-      "All\\Exception\\": ""
+      "All\\Exception\\": "src/"
     }
   }
 }
