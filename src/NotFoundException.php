@@ -8,10 +8,10 @@
 
 namespace All\Exception;
 
-use All\Utils\HttpStatus;
+use All\Utils\HttpCode;
 
 class NotFoundException extends Exception
 {
-    protected $code = HttpStatus::NOT_FOUND;
+    protected $code = HttpCode::NOT_FOUND;
     protected $message = 'Not Found';
 }

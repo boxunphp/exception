@@ -8,10 +8,10 @@
 
 namespace All\Exception;
 
-use All\Utils\HttpStatus;
+use All\Utils\HttpCode;
 
 class ServerErrorException extends Exception
 {
-    protected $code = HttpStatus::INTERNAL_SERVER_ERROR;
+    protected $code = HttpCode::INTERNAL_SERVER_ERROR;
     protected $message = 'Server Error';
 }

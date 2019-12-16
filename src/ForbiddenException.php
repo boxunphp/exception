@@ -8,10 +8,10 @@
 
 namespace All\Exception;
 
-use All\Utils\HttpStatus;
+use All\Utils\HttpCode;
 
 class ForbiddenException extends Exception
 {
-    protected $code = HttpStatus::FORBIDDEN;
+    protected $code = HttpCode::FORBIDDEN;
     protected $message = 'Forbidden';
 }

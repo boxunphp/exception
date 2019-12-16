@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "boxunphp/php-utils",
-            "version": "v1.2",
+            "version": "v1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxunphp/php-utils.git",
-                "reference": "c9f4b54c67c5039e6ccf7a9ef5cb72cc9709ed1a"
+                "reference": "af239a442c5b8f8a72a28f43ca0bbd7f01ae91f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxunphp/php-utils/zipball/c9f4b54c67c5039e6ccf7a9ef5cb72cc9709ed1a",
-                "reference": "c9f4b54c67c5039e6ccf7a9ef5cb72cc9709ed1a",
+                "url": "https://api.github.com/repos/boxunphp/php-utils/zipball/af239a442c5b8f8a72a28f43ca0bbd7f01ae91f0",
+                "reference": "af239a442c5b8f8a72a28f43ca0bbd7f01ae91f0",
                 "shasum": ""
             },
             "require": {
@@ -29,7 +29,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "All\\Utils\\": ""
+                    "All\\Utils\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -43,7 +43,7 @@
                 }
             ],
             "description": "PHP公共类和方法",
-            "time": "2019-12-11T03:35:36+00:00"
+            "time": "2019-12-16T11:00:51+00:00"
         }
     ],
     "packages-dev": [

@@ -8,12 +8,12 @@
 
 namespace All\Exception;
 
-use All\Utils\HttpStatus;
+use All\Utils\HttpCode;
 
 class HttpException extends Exception
 {
     public function __construct($code = 0)
     {
-        parent::__construct(HttpStatus::message($code), $code);
+        parent::__construct(HttpCode::message($code), $code);
     }
 }

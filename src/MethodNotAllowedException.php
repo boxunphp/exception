@@ -8,10 +8,10 @@
 
 namespace All\Exception;
 
-use All\Utils\HttpStatus;
+use All\Utils\HttpCode;
 
 class MethodNotAllowedException extends Exception
 {
-    protected $code = HttpStatus::METHOD_NOT_ALLOWED;
+    protected $code = HttpCode::METHOD_NOT_ALLOWED;
     protected $message = 'Method Not Allowed';
 }
