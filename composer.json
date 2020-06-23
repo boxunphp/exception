@@ -14,8 +14,7 @@
     "phpunit/phpunit": "8.*"
   },
   "require": {
-    "php": "^7.2",
-    "boxunphp/php-utils": "dev-master"
+    "php": "^7.2"
   },
   "autoload": {
     "psr-4": {
