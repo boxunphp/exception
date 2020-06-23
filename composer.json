@@ -1,5 +1,5 @@
 {
-  "name": "boxunphp/php-exception",
+  "name": "boxunphp/exception",
   "description": "PHP Exception",
   "type": "library",
   "license": "MIT",
